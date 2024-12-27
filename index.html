@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio Website</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">RUCHITHA RAO</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#Internships" class="nav-link">Internships</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="https://drive.google.com/file/d/1zUILmZ5HBVRDfMVwvaHyz5cuwEJ8irLR/view?usp=drivesdk" target="_blank" download>
+                <button class="btn">Download Resume <i class="uil uil-file-alt"></i></button>
+            </a>            
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Ruchitha Rao Dugyala</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>"I am passionate about AI and machine learning, with a solid background in data science. I enjoy solving real-world problems with innovative solutions. 
+                    I have practical experience working with machine learning techniques. Currently, I am focusing on exploring in Marketing Research. 
+                    I am eager to continue growing and learning in the AI field."
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="c:\Users\RUCHITHA RAO\Downloads\WhatsApp Image 2024-12-27 at 12.34.55 PM.jpeg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>Hi, I'm Ruchitha Rao, currently pursuing a Bachelor’s degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
+                         I am passionate about exploring cutting-edge AI technologies and using them to solve real-world challenges.
+                          My interests lie in machine learning, data analytics, and developing intelligent systems that can drive meaningful change.
+                         I enjoy learning new tools and frameworks while working on innovative projects that combine creativity and technical expertise.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>SKILLS</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>MySQL</span>
+                        <span>Data Analysis</span>
+                        <span>AIML</span>
+                        <span>Market Research</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="Education-box">
+                    <div class="Education-header">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="Education-list">
+                        <h5>Bachelor of engineering</h5>
+                        <p>SR University/2021-2025</p>
+                    </div>
+                    <div class="Education-list">
+                        <h5>Intermediate</h5>
+                        <p>Narayan Junior College /2019-2021</p>
+                    </div>
+                    <div class="Education-list">
+                        <h5>Secondary High School</h5>
+                        <p>Tejaswi High School/2019</p>
+                    </div>
+          </div>
+       </section>
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <h3>COVID-19 PREDICTION ANALYTICS-AI/ML ALGORITHM</h3>
+                <p>
+                    Developed an AI/ML algorithm to predict COVID-19 spread and outcomes, achieving an accuracy rate of 85%, and provided 
+                    data-driven insights for public health decision-making.
+                </p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-box">
+                <h3> OBJECT-ORIENTED BANK MANAGEMENT SYSTEM DEVELOPER-OOPC</h3>
+                <p>
+                    Developed a robust and scalable Bank Management System using Object-Oriented Programming Concepts (OOPC) to manage 
+                    customer accounts, transactions, and services. Implemented advanced security protocols in the Bank Management System to 
+                    ensure data protection.
+                </p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-box">
+                <h3>SEQUENTIAL STRATEGIES FOR CONTENT BASED TEXT SUMMURIZATION-NLP</h3>
+                <p>I developed an automated text summarization system using content-based strategies and advanced NLP techniques.
+                    The project enhanced my skills in text processing, machine learning, and deep learning, and I evaluated the model's effectiveness using metrics like ROUGE scores.
+                </p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-box">
+                <h3>MUSIC PLAYER WEBSITE(SPOTIFY CLONE)-REACT AND EXPRESSJS</h3>
+                <p>A Spotify clone built using React and Styled Components that allows users to log in with their Spotify account and 
+                    access various features like reading favourite songs, private playlists, and more.</p>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-box">
+                <h3>OPTIMIZING GARMENT PRODUCTION EFFICIENCY THROUGH ML TECHNIQUES-ML</h3>
+                <p> Developed and implemented machine learning models to predict and enhance garment production efficiency. Analyzed 
+                   production data to identify key performance indicators and patterns, leading to a significant increase in productivity</p>
+            </div>
+        </div>
+    </section>
+    <!-- -------------- INTERNSHIP BOX ---------------- -->
+    <section class="section" id="internships">
+        <div class="top-header">
+            <h1>Internships</h1>
+        </div>
+        <div class="internships-container">
+            <!-- Internship 1 -->
+            <div class="internship-box">
+                <h3>Machine learning Internship</h3>
+                <label>Completed: 08/2023</label></br>
+                <label>BHARAT INTERN</label>
+                <p>
+                    Completed an Machine learning Internship at Bharat Intern , where I worked on developing machine learning models for predictive analytics
+                    for Iris flower prediction and house price prediction projects.I collaborated with a team to improve the accuracy of algorithms and contributed to key research papers. 
+                    Technologies used: Python, TensorFlow, Scikit-Learn.
+                </p>
+            </div>
+            <!-- Internship 2 -->
+            <div class="internship-box">
+                <h3>Zero trust cloud security virtual Internship</h3>
+                <label>Completed: 06/2024</label></br>
+                <label>AICTE EDUSKILLS</label>
+                <p>
+                    During my internship at AICTE , I focused on  Gained experience, exposure and knowledge of career-specific procedures and systems. Assisted in implementing Zero Trust 
+                    security principles in cloud environments. Developed and implemented zero trust security protocols for cloud infrastructure.
+                </p>
+            </div>
+            <!-- Internship 3 -->
+            <div class="internship-box">
+                <h3>Market Research Internship</h3>
+                <label>Completed: 1/2025</label></br>
+                <label>ALGOHIRE.AI Technologies</label>
+                <p>Completed a Market Research Internship at Algohire.ai Technologies, where I worked on  involved in analyzing market trends and customer behavior to support business strategy development,
+                    include gathering and analyzing data from various sources, such as industry reports, surveys, and online research, to provide actionable insights.
+                    This internship offers hands-on experience in market research, data analysis, and exposure to cutting-edge AI technologies.
+                </p>
+            </div>
+        </div>
+    </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: ruchitharao1004@gmail.com</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+    </main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Ruchitha Rao.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#Internships">Internships</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ruchitha Rao Dugyala</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
